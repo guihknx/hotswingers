@@ -1,0 +1,63 @@
+.album p {
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.album button.hn {
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 20px;
+    padding: 1em 0;
+    height: 3em;
+    line-height: -2em;
+    padding-bottom: 2.2em;
+    background: #291037;
+    width: 90% !important;
+    /* margin: 0; */
+    margin-top: -1em;
+}
+ion-content.album {
+    background: linear-gradient(#441F55, #1B0720);
+    background-size: 100% 146%;
+}
+.img-item {
+    width: 100%;
+    margin: 0;
+    margin: 0;
+    /* display: table-footer-group; */
+    position: relative;
+}
+
+.img-item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.img-item .delete {
+    position: absolute;
+    bottom: 2em;
+    color: #fff;
+    background: rgba(97, 43, 113, 0.53);
+    padding: .5em 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: 13pt;
+}
+
+.img-item .delete i {
+    color: #8E234D;
+}
+.album .album {
+    margin: 1em 1em 0em 1em;
+}
+
+button.submit-primary.hnc {
+    margin-bottom: 2em;
+}
+
+.album.album-footer {
+    padding: 0 1em;
+}
+h3.new-acct.n {
+    top: 5px;
+    position: relative;
+}

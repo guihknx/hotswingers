@@ -1,0 +1,28 @@
+.terms p{
+	text-align: left;
+}
+.terms {
+    margin: 2em 0;
+    padding: 1.3em;
+    top: -4em;
+    position: relative;
+}
+
+.terms h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0em;
+    height: 1em;
+}
+.rule{
+	color: #B69A52
+}
+.terms span.gold-couple {
+    text-transform: none;
+}
+.terms .foot-info {
+    position: absolute;
+    top: 100%;
+    font-weight: normal !important;
+    padding: 2em 0;
+}

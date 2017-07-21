@@ -1,0 +1,363 @@
+.head{
+        background: #291037;
+    height: 4em;
+    width: 100%;
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    color: #fff;
+}
+h3.new-acct {
+    text-align: center;
+    color: #fff;
+    line-height: 2.2em;
+}
+.new-account {
+    padding-top: 5em;
+    padding: 5em 2em 5em 2em;
+}
+.new-account {
+    padding-top: 5em;
+    padding: 5em 2em 5em 2em;
+}
+
+h2.profile-top {
+    text-transform: uppercase;
+    font-weight: bold;
+    co: re;
+    color: rgb(251, 219, 1);
+    font-size: 18pt;
+}
+.account-type {
+    /* background: red; */
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.account-type .radio-field {
+    display: inline-block;
+}
+.account-type {
+    /* background: red; */
+    position: relative;
+    display: flex;
+    width: 78%;
+    top: -2.4em;
+    margin: 1em 0;
+    overflow: hidden;
+    float: right;
+}
+
+.account-type .radio-field {
+    display: inline-block;
+}
+
+.new-account .photo {
+    background: rgb(40, 16, 54);
+    width: 26%;
+    width: 35;
+    display: inline-flex;
+    height: 5.5em;
+    border-radius: 50%;
+    border: 3px solid rgb(184, 180, 183);
+    text-align: center;
+    overflow: hidden;
+    /* top: 4em; */
+    /* font-size: 13pt; */
+    /* position: relative; */
+}
+
+.new-account .nickname {
+    width: 69%;
+    display: inline-block;
+    position: relative;
+    top: .3em;
+    margin-left: .7em;
+}
+
+.new-account .user-state {
+    /* background: blue; */
+    width: 18em;
+    float: right;
+    top: 1em;
+    position: relative;
+}
+
+.new-account .nickname input {
+    /* background: transparent; */
+    /* top: -6px; */
+    position: re;
+}
+.new-account .photo i {
+    color: #B8B4B7;
+    position: relative;
+    font-size: 2em;
+    position: relative;
+    top: .7em;
+    margin: 0 auto;
+}
+
+.input-row input {
+    width: 32%;
+    display: inline-block;
+    background: transparent;
+    border-width: 1px !important;
+    border-color: #4A2D57 !important;
+}
+
+.input-row div {
+    display: inline;
+    float: le;
+}
+
+.selector-view {
+    /* background: red; */
+    display: block;
+    position: relative;
+    padding: .4em 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+    /* line-height: 1em; */
+    padding-top: 0.8em;
+    padding-bottom: 0em;
+}
+
+.selector-view p {
+    display: inline-block;
+    color: #fff;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.selector-view select {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    background: transparent;
+    color: rgb(138, 122, 148);
+    border-color: rgb(90, 63, 103);
+    border-radius: 2px;
+    padding: .2em 0;
+    border: none;
+}
+.selector-view.lg select {
+    width: 58%;
+}
+.selector-view.lg.l-1 select {
+    width: 86%;
+}
+
+.selector-view.lg.l-2 select {
+    width: 79%;
+}
+
+.selector-view.lg.l-5 select {
+    width: 72%;
+}
+
+.selector-view.lg.l-6 select {
+    width: 63%;
+}
+
+.selector-view.lg.l-10 select {
+    width: 69%;
+}
+.selector-nav ion-item {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+ion-item.item {
+    background: transparent !important;
+}
+
+.selector-nav .item {
+    background: transparent !important;
+    border: none;
+    overflow: visible;
+    dis: in;
+    display: inline-block;
+    width: 46%;
+    text-align: left;
+    /* float: left; */
+}
+.selector-nav ion-item.item {
+    /* text-align: left; */
+    /* float: left; */
+}
+
+.selector-nav .item {
+    /* background: red !important; */
+    /* float: left; */
+    position: relative;
+    padding: 0;
+    top: -.5em;
+    /* padding-top: 3em; */
+    /* line-height: 11em; */
+}
+
+.selector-nav ion-label {
+    position: relative;
+    top: 1.5em;
+    margin: 0;
+}
+.selector-nav ion-item.item {
+    /* text-align: left; */
+    /* float: left; */
+}
+
+.selector-nav .item {
+    /* background: red !important; */
+    /* float: left; */
+    position: relative;
+    padding: 0;
+    top: -.5em;
+    /* padding-top: 3em; */
+    /* line-height: 11em; */
+}
+
+.selector-nav ion-label {
+    position: relative;
+    top: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    color: #4B2D59;
+    left: -.8em;
+    font-family: inherit;
+}
+.toggle .track {
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: background-color,border;
+    transition-property: background-color,border;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 51px;
+    height: 31px;
+    border: 2px solid rgb(153, 138, 159);
+    border-radius: 20px;
+    background-color: #1E0925;
+    content: ' ';
+    cursor: pointer;
+    pointer-events: none;
+}
+.toggle .handle {
+    -webkit-transition: .3s cubic-bezier(0,1.1,1,1.1);
+    transition: .3s cubic-bezier(0,1.1,1,1.1);
+    -webkit-transition-property: background-color,transform;
+    transition-property: background-color,transform;
+    position: absolute;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 27px;
+    background-color: rgb(153, 138, 159);
+    top: 10px;
+    left: 10px;
+    box-shadow: 0 2px 7px rgba(0,0,0,.35),0 1px 1px rgba(0,0,0,.15);
+}
+.item-toggle .toggle {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    z-index: 3;
+}
+.toggle input:checked+ion-label {
+ color: red
+}
+.toggle input:checked+.track {
+    border-color: rgb(194, 141, 20);
+    background-color: transparent;
+}
+.toggle input:checked+.track .handle {
+    -webkit-transform: translate3d(20px,0,0);
+    transform: translate3d(20px,0,0);
+    background-color: rgb(255, 191, 0);
+    height: 1.5em;
+    width: 1.5em;
+    top: 9px;
+}
+.new-account input[type=text] {
+    /* background: transparent; */
+    /* border-width: 1px !important; */
+    /* border-color: #4A2D57 !important; */
+    /* font-weight: bold; */
+    /* color: #fff; */
+    /* font-size: 12pt; */
+}
+
+.nickname:before {
+    content: "\e002";
+    position: absolute;
+    font-family: 'simple-line-icons';
+    color: white;
+    font-size: 18px;
+    top: 6px;
+    left: 9px;
+}
+
+.new-account input[type="text"] {
+    /* padding-left: 2em; */
+    line-height: -3em;
+    /* padding-bottom: 6px; */
+}
+
+.input-row .st1:before {
+    content: "\e002";
+    position: absolute;
+    font-family: 'simple-line-icons';
+    color: white;
+    font-size: 18px;
+    top: -7px;
+    left: 9px;
+}
+.input-row div {
+    position: relative;
+}
+
+.st2:before {
+    content: "\e023";
+    position: absolute;
+    font-family: 'simple-line-icons';
+    color: white;
+    font-size: 18px;
+    top: -7px;
+    left: 9px;
+}
+
+.st3:before {
+    content: "\e01a";
+    position: absolute;
+    font-family: 'simple-line-icons';
+    color: white;
+    font-size: 18px;
+    top: -7px;
+    left: 9px;
+}
+.new-account .checkbox-field {
+    top: 3em;
+    position: relative;
+    text-align: center;
+}
+.new-account button.submit-primary.hn {
+    /* background: red; */
+    border-radius: 2px;
+    margin-top: 2em;
+}
+.photo.w-image {
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.photo.w-image img {
+    object-fit: contain;
+    width: 100%;
+}
+.w-image .nickname {
+    top: -1em;
+}

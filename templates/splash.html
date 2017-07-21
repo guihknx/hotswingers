@@ -1,0 +1,28 @@
+<div class="splash">
+  <img src="assets/images/logo-lg.png"></img>
+  <div class="progress">
+    <div class="inner">{{current}}</div>
+    <div
+        round-progress
+        max="max"
+        current="current"
+        color="url(#gradient)"
+        bgcolor="{{ bgColor }}"
+        radius="{{ radius }}"
+        semi="isSemi"
+        rounded="rounded"
+        stroke="{{ stroke }}"
+        clockwise="clockwise"
+        responsive="responsive"
+        iterations="{{ iterations }}"
+        animation="{{ currentAnimation }}">
+
+        <svg>
+            <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="5%"  stop-color="#E0522A"/>
+                <stop offset="95%" stop-color="#DE9B0E"/>
+            </linearGradient>
+        </svg>
+    </div>
+  </div>
+</div>

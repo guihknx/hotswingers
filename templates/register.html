@@ -1,0 +1,68 @@
+<img src="assets/images/login.jpg" class="guide">
+<ion-content class="padding" scroll="false">
+	<div class="register">
+		<img src="assets/images/logo.png" />
+
+		<h1>cadastro</h1>
+		<div class="login-form regular-form">
+
+			<div class="form-field user-name">
+				<input ng-model="profile.name" type="text"  placholder="Nome" class="formated-field">
+			</div>
+			<div class="form-field user-passwords">
+				<i class="icon-key icons"></i>
+				<input ng-model="profile.pass" type="text"  placholder="Nome" class="formated-field">
+				<i class="icon-key icons"></i>
+				<input ng-model="profile.rePass" type="text"  placholder="Nome" class="formated-field">
+			</div>
+			<div class="form-field user-email">
+				<input ng-model="profile.email" type="text"  placholder="Nome" class="formated-field">
+			</div>
+			<div class="form-field user-reemail">
+				<input ng-model="profile.reemail" type="text"  placholder="Nome" class="formated-field">
+			</div>
+			<div class="form-field user-cpf">
+				<input ng-model="profile.cpf" type="text"  placholder="Nome" class="formated-field">
+			</div>
+			<div class="form-field user-state">
+				<span class="caption">Perfil:</span>
+				<div class="radio-field">
+				    <label>
+				        <input type="radio" name="radio" value="option1" checked />
+				        <span>Solteiro</span>
+				    </label>
+				</div>
+				<div class="radio-field pull-right">
+				    <label>
+				        <input type="radio" name="radio" value="option1" />
+				        <span>Casal</span>
+				    </label>
+				</div>
+			</div>
+
+			<button class="submit-primary hn">
+				<img src="assets/images/correct-symbol.svg">
+			</button>
+			<div class="form-field user-state-terms">
+
+			<div class="checkbox-field">
+			    <label>
+			        <input type="checkbox" /> 
+			        <span>Aceito os Termos e Condições</span>
+			    </label>
+			</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<div class="foot-info">
+		<a class="pull-left">
+			<i class="icon-action-undo icons"></i> Voltar
+		</a>
+		<a class="pull-right">
+			<i class="icon-info icons"></i>  Termos e Condições
+		</a>
+	</div>
+</ion-content>

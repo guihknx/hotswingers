@@ -1,0 +1,129 @@
+.inside h3 {
+    /* color: red; */
+    display: -webkit-inline-box;
+    margin: 0 auto;
+    width: 100%;
+    tec: c;
+    text-align: center;
+    width: 8em;
+    /* background: red; */
+    top: 7px;
+    position: relative;
+}
+
+a.left-menu {
+    float: left;
+    font-size: 2em;
+    color: #fff;
+    margin: .5em .5em;
+}
+
+a.right-menu {
+    float: right;
+    font-size: 2em;
+    top: 0;
+    pso: re;
+    margin: .5em;
+    color: white;
+}
+.head.inside {
+    text-align: center;
+}
+.user-profile {
+    width: 50%;
+    display: inline-block;
+    height: 9em;
+    /* overflow: hidden; */
+    margin: 1em 0;
+    /* margin: 0 auto; */
+}
+
+.couple-data.profiles {
+    oa: a;
+    padding: 1em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.profiles .row {
+    margin: 0 !important;
+}
+
+.user-profile img {
+    width: 7em;
+    border-radius: 50%;
+    height: 7em;
+    object-fit: cover;
+    position: relative;
+    top: 0em;
+    /* transform: scale(0.4); */
+}
+
+.footer .state {
+    background: #C01823;
+    height: .8em;
+    width: .8em;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    border-radius: 50%;
+}
+
+.caption-profile {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+
+.user-profile.hot img {
+    border-color: red;
+}
+
+.user-profile img {
+    /* background: red; */
+    border: 6px solid #0CF492;
+}
+
+.user-profile.gold img {
+    border-color: #F9C009;
+}
+
+.user-profile.hot img {
+    border-color: #F68107;
+}
+
+.user-profile.online .state {
+    background: #42923E;
+}
+.location-couple {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EB7F2B;
+    text-align: center;
+    font-size: 10pt;
+}
+.pager {
+    position: fixed;
+    bottom: 24px;
+    /* background: red; */
+    width: 100%;
+    z-index: 9999999999;
+    hw: 1em;
+    height: 2em;
+    text-align: center;
+}
+
+.pager i {
+    width: .6em;
+    height: .6em;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 1em;
+    content: "";
+    z-index: 999999;
+    position: f;
+    display: inline-block;
+    top: 1em;
+    position: relative;
+    border-radius: 50%;
+}

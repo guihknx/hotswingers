@@ -1,0 +1,1 @@
+angular.module('HotSwingers', ['ionic', 'angular-svg-round-progress']);

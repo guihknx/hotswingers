@@ -1,0 +1,145 @@
+.profile {
+    /* background: red; */
+    overflow: hidden;
+    /* border-bottom: 1px solid red; */
+    padding: 1em 0px;
+}
+
+.profile .figure {
+    width: 30%;
+    overflow: hidden;
+    height: 7em;
+    border-radius: 50%;
+    float: left;
+    /* border: 4px solid #222; */
+    border: 6px solid #0CF492;
+}
+
+.profile .meta {
+    display: inline-block;
+    /* background: blue; */
+    width: 67%;
+    float: right;
+    top: 1.5em;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+}
+
+span.expires {
+    display: inline-block;
+}
+
+.figure img {
+    width: 100%;
+    object-fit: cover;
+    height: 8em;
+    /* border: 4px solid red; */
+}
+
+.figure {}
+
+span.plus-info {
+    /* float: right; */
+    left: 1em;
+    position: relative;
+    text-transform: uppercase;
+    color: #B04B6E;
+}
+
+div.name {
+    font-size: 14pt;
+}
+
+.side-menu {
+    padding: 0 2em;
+}
+.main-menu a {
+    /* background: red; */
+    width: 100%;
+    /* position: relative; */
+    margin: 0;
+    padding: 1em 0;
+    width: 100%;
+    display: block;
+    padding: 1em 3em;
+    /* font-size: 21pt !important; */
+    color: #fff;
+    font-size: 15pt;
+    position: relative;
+    top: -.5em;
+    /* height: 11em; */
+}
+
+.main-menu li {
+    na: 0;
+    /* margin: 0; */
+    /* padding: 0; */
+    height: 3.9em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    /* margin: 1em 0em; */
+}
+
+.main-menu {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1em;
+}
+span.cod-hot {
+    display: block;
+}
+.main-menu .icon-arrow-right {
+    /* background: red; */
+    float: right;
+    position: relative;
+    top: -46px;
+    font-size: 2em;
+    right: .5em;
+    color: rgba(255, 255, 255, 0.5);
+}
+i.user-following.icons {}
+
+ul.n a i {
+    /* background: rebeccapurple; */
+    position: absolute;
+    /* top: 42px; */
+    /* background: red; */
+    width: 1em;
+    height: 1em;
+    left: 1em;
+    color: #fff;
+    font-size: 1.2em;
+    top: 13px;
+}
+
+ul.n a {
+    /* color: red; */
+    font-size: 13pt;
+    position: relative;
+    top: -2px;
+}
+.n sup {
+    background: #E04B67;
+    padding: .2em .5em;
+    border-radius: 50%;
+    /* height: 1.5em !important; */
+    /* width: .5em; */
+    /* display: -webkit-box; */
+    font-size: 11pt;
+    /* line-height: 0em; */
+    margin-left: 5px;
+}
+.n li.active {
+    background: #FFC000;
+}
+
+.n li.active a {
+    color: #21262E;
+}
+
+.n li.active .icon-arrow-right {
+    color: #21262E;
+}
+
+.n li.active a i {
+    color: #21262E;
+}
