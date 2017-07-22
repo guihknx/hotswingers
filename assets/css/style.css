@@ -3,6 +3,7 @@
 @import url(login.css);
 @import url(forgot.css);
 @import url(hot-code.css);
+@import url(get-hot-code.css);
 
 * {
   color: #fff;
@@ -35,8 +36,24 @@ footer {
   max-height: 45px;
 }
 
-.orange {
+.color-orange {
   color: #ffad00;
+  text-shadow: -1px 0 #ffad00;
+}
+
+.color-pink {
+  color: #ff71b9;
+  text-shadow: -1px 0 #ff71b9;
+}
+
+.color-yellow {
+  color: #fffe01;
+  text-shadow: -1px 0 #fffe01;
+}
+
+.color-red {
+  color: #d63e29;
+  text-shadow: -1px 0 #d63e29;
 }
 
 .logo {
@@ -100,7 +117,6 @@ footer {
 .footer p{
     color: #928597;
     font-size: 1em;
-    color: #928597;
 }
 
 .footer .icon {

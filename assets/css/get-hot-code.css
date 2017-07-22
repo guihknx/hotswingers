@@ -1,34 +1,21 @@
-.get-hot-code h2 {
-    margin: -2.3em 0 -2.3em 0;
-    padding: -3em 2px;
-    overflow: hidden;
-    height: 2.7em;
+.getcode strong {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:  900;
 }
 
-.get-hot-code img.logo-internal {
-    margin: 4px 5px;
+.getcode p {
+  font-size: 1.2em;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
-span.hot {
-    color: #EAA70C;
-    font-weight: bold;
+.getcode-bottom button {
+  width: 130%!important;
+  margin-left: -15%;
 }
 
-.get-hot-code .control a {
-    color: #BF5D98;
-    font-weight: bold;
-    margin: 0 0;
-}
-
-span.hot-couple, span.gold-couple {
-    color: #D34E3D;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-span.gold-couple {
-    color: #F5F726;
-}
-.get-hot-code {
-    padding: 4px;
+.url {
+  text-transform: lowercase!important;
 }
