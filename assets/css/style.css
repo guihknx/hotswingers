@@ -4,6 +4,7 @@
 @import url(forgot.css);
 @import url(hot-code.css);
 @import url(get-hot-code.css);
+@import url(register.css);
 
 * {
   color: #fff;
@@ -56,6 +57,10 @@ footer {
   text-shadow: -1px 0 #d63e29;
 }
 
+.color-font {
+  color: #b4a7b8;
+}
+
 .logo {
   text-align: center;
   margin-bottom: 25px;
@@ -82,8 +87,7 @@ footer {
 .form-login input {
   background: transparent;
   border: none;
-  width: 100%;
-  padding: 20px;
+  padding: 20px 5px 20px 5px;
   color: #fff;
 }
 
