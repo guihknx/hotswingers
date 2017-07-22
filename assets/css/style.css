@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Cabin:700);
 @import url(login.css);
 @import url(forgot.css);
+@import url(hot-code.css);
 
 * {
   color: #fff;
@@ -32,4 +33,88 @@ footer {
   text-transform: uppercase;
   background-color: #2b1133;
   max-height: 45px;
+}
+
+.orange {
+  color: #ffad00;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logo .logo-large img {
+  width: 85%;
+  height: auto;
+}
+
+.logo  .logo-small img{
+  width: 100%;
+  height: auto;
+}
+
+.form-login {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.form-login input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.form-login button {
+  padding: 12px 0;
+  width: 100%;
+  background-color: #3c184c;
+  border: none;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.form-login .forgot {
+  color: #928597;
+}
+
+.form-hotcode:focus, .form-control:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+  border: none;
+}
+
+.footer {
+    position:absolute;
+    bottom:25px;
+    width:80%;
+    margin-left: 10%;
+}
+
+.footer p{
+    color: #928597;
+    font-size: 1em;
+    color: #928597;
+}
+
+.footer .icon {
+  position: relative;
+  top: 3px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #928597;
+}
+
+.icon {
+  position: relative;
+  top: 0px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
 }

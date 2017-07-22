@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.hotcode {
+  margin: 10px;
+}
+
+.hotcode h1 {
+  color: #ffda01;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:  bold;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 1.7em;
+  text-align: center;
+  text-shadow: -1px 0 #ffda01;
+}
+
+.hotcode h2 {
+  color: #ffad00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:  bold;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: -1px 0 #ffda01;
+}
+
+.hotcode h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+
+.hotcode p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.form-hotcode {
+  width: 60% ;
+  padding: 20px 0;
+  color: #fff;
+  margin: auto;
+}
+
+.form-hotcode input{
+  text-transform: uppercase;
+}
+
+.form-hotcode button{
+  width: 120%!important;
+  padding: 20px 0;
+  color: #b2aab7;
+  margin: auto;
+  margin-top: 25px!important;
+  margin-left: -10%;
+}
+
+.hotcode .text {
+    height: auto;
+    width: 100%;
+    clear: both;
+    display: block;
+}
