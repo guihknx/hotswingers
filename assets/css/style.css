@@ -1221,7 +1221,7 @@ hr {
 }
 
 .icons {
-    /*opacity: 0.5;*/
+    opacity: 0.5;
     color: #665369 !important
     top: 2px;
     position: relative;
