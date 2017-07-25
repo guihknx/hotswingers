@@ -80,6 +80,9 @@ div.name {
     border-bottom: 1px solid rgba(255, 255, 255, 0.09);
     /* margin: 1em 0em; */
 }
+.main-menu li:last-child {
+    border-bottom: none;
+}
 
 .main-menu {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
