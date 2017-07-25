@@ -1,21 +1,35 @@
-.getcode strong {
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  font-weight:  900;
+.get-hot-code h2 {
+    overflow: hidden;
 }
 
-.getcode p {
-  font-size: 1.2em;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 20px;
+.get-hot-code img.logo-internal {
+    /*margin: 4px 5px;*/
 }
 
-.getcode-bottom button {
-  width: 130%!important;
-  margin-left: -15%;
+span.hot {
+    color: #ffae02;
+    font-weight: bold;
 }
 
-.url {
-  text-transform: lowercase!important;
+.get-hot-code .control a {
+    color: #BF5D98;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+span.hot-couple, span.gold-couple {
+    color: #fe4821;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+span.gold-couple {
+    color: #ffad00;
+}
+.get-hot-code {
+    padding: 10px;
+}
+
+p.option-code {
+  margin-bottom: 25px;
 }

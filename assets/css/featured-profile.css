@@ -1,3 +1,7 @@
+.icons-top {
+  top: -25px!important;
+}
+
 .inside h3 {
     /* color: red; */
     display: -webkit-inline-box;
@@ -39,10 +43,9 @@ a.right-menu {
 }
 
 .couple-data.profiles {
-    oa: a;
-    padding: 1em;
+    /*padding: 1em;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 2em;*/
 }
 
 .profiles .row {
@@ -57,23 +60,28 @@ a.right-menu {
     position: relative;
     top: 0em;
     /* transform: scale(0.4); */
+    margin-bottom: 5px;
 }
 
 .footer .state {
     background: #C01823;
-    height: .8em;
-    width: .8em;
+    height: .6em;
+    width: .6em;
     display: inline-block;
     position: relative;
     top: 1px;
     border-radius: 50%;
 }
 
+.caption-icon {
+  font-size: 13px!important;
+  margin: 0!important;
+}
 .caption-profile {
     display: inline-block;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 8pt;
+    font-size: .7em;
 }
 
 .user-profile.hot img {
@@ -101,7 +109,7 @@ a.right-menu {
     font-weight: bold;
     color: #EB7F2B;
     text-align: center;
-    font-size: 10pt;
+    font-size: .7em;
 }
 .pager {
     position: fixed;

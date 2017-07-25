@@ -1,57 +1,32 @@
-<ion-content scroll="false">
-	<div class="hotcode">
-	<div class="col-sm-12 logo">
-			<div class="row">
-		<div class="logo-small">
-			<img src="assets/images/logo.png">
-		</div></div></div>
-	<div class="text">
-		<h1>Código Hot</h1>
-		<p>Este aplicativo é estritamente restrito</p>
-		<p>Para você continua seu cadastro <br/>insira abaixo seu <span class="color-orange">código hot</span>.</p>
-	</div>
+<img src="assets/images/login.jpg" class="guide">
+<ion-content class="padding" scroll="false">
+	<img src="assets/images/logo.png" class="logo-internal" />
+	<div class="login pane--form-hotcode">
 
-	<div class="col-sm-12 hotcode">
-		<div class="row">
-				<div class="form-login form-hotcode">
-					<div class="row">
-						<form class="form-horizontal">
-							<div class="form-group">
-								<div class="form-hotcode">
-										<div class="input-group">
-											<div class="input-group-addon"><span class="icon-key"></span></div>
-											<input type="text" class="form-control" id="hot-code" placeholder="AXB1598DT">
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
-							<h2 class="orange">este é seu padrinho!</h2>
-							<h3>Hotbar - São Paulo</h3>
-							<div class="form-group">
-									<button type="submit" class="btn btn-default"><span class="icon-like icon"></span>Certo! Pode continuar</button>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<div class="row">
-									<p class="forgot hotcode">Como conseguir um código?</p>
-								</div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-		</div>
-	</div>
-	<div class="col-sm-12 footer">
-		<div class="row">
-			<div class="col-sm-6">
-				<p class="pull-left color-roxo"><span class="icon-login icon"></span>Logar</p>
+		<div class="control">
+			<h2>código hot</h2>
+			<p>Este aplicativo é estritamente restrito!</p>
+
+			<p>Para você continuar seu cadastro <br>insira abaixo seu <strong class="hot">código hot.</strong></p>
+			<div class="form-field with-caption user-pass"  >
+				<input ng-model="hotCode" type="passowrd"  class="formated-field">
 			</div>
-			<div class="col-sm-6">
-				<p class="pull-right color-roxo"><span class="icon-support icon"></span>Ajuda</p>
+			<div class="place-info">
+				<h5>este é seu padrinho!</h5>
+				<h4>hotbart - são paulo</h4>
 			</div>
+			<button class="submit-primary hn"><i class="icon icon-like hand"></i> Certo! Pode continuar</button>
+			<div class="button-help"><a href="#">Como conseguir um código hot?</a></div>
+
 		</div>
+
 	</div>
-</div>
+	<div class="foot-info">
+		<a class="pull-left" href="#/login">
+			<i class="icon-rocket icons"></i> Login
+		</a>
+		<a class="pull-right">
+			<i class="icon-support icons"></i> Ajuda
+		</a>
+	</div>
 </ion-content>

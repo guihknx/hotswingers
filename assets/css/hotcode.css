@@ -1,0 +1,119 @@
+.form-field.with-caption.user-pass {
+    position: relative;
+}
+
+.login.pane--form-hotcode h2 {
+    color: #FFD50A;
+    text-transform: uppercase;
+    font-weight: 900;
+        margin-bottom: 25px;
+    font-size: 27px;
+}
+
+.login.pane--form-hotcode {
+    /* padding:  0; */
+}
+
+.login.pane--form-hotcode {
+    /*margin: -2em 20px;*/
+}
+
+.login.pane--form-hotcode .hn {
+  /* background: red; */
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.login.pane--form-hotcode img {
+    margin: 0;
+    padding: 0;
+    /* width: 27em; */
+    height: 7em;
+    margin: 4em 0 4em 0;
+    /* margin: 0 auto; */
+}
+
+strong.hot {
+  color: #EFA442;
+  font-weight: normal;
+}
+
+.login.pane--form-hotcode input {
+  /* width: 500px; */
+  padding-left: 35px!important;
+  /* line-height: 3.5em; */
+  /* margin: 0 auto; */
+  /* overflow: hidden; */
+}
+.place-info h5 {
+    color: #F5B000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.login.pane--form-hotcode .user-pass {
+    position: relative;
+    width: 9em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+img.logo-internal {
+    width: 100%;
+    /* padding: 25px; */
+    /* top: 5px; */
+    /* position: relative; */
+    margin-bottom: 25px;
+}
+
+.login.pane--form-hotcode .control {
+    /*top: 35px;
+    position: relative;*/
+}
+
+.place-info {
+    top: 1em;
+    position: relative;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.place-info h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.user-pass input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login.pane--form-hotcode .user-pass:before {
+    top: 14px;
+}
+
+.login.pane--form-hotcode input {
+  /* background: red; */
+  /* line-height: 4em; */
+  /* padding: 0; */
+  /* height: 3.3em; */
+  padding: 12px 0;
+  margin-top: 5px;
+  font-size: 17px;
+  /* width: 100%; */
+}
+i.icon-like {
+margin-right: 5px;
+opacity: 0.5;
+top: 2px;
+position: relative;
+}
+
+.button-help, .button-help a, .button-help a:hover, .button-help a:visited {
+    display: block;
+    position: relative;
+    margin-top: 30px ;
+    color: #908691;
+    /* padding: 0px; */
+    text-decoration: none;
+}

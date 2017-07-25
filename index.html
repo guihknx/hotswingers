@@ -2,14 +2,76 @@
 <!DOCTYPE html>
 <html ng-app="HotSwingers">
   <head>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/simple-line-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/radio.css"/>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="http://code.ionicframework.com/1.0.0/css/ionic.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+/* Styles here */
+</style>
 </head>
-  <body>
+  <body ng-controller="MainController">
+  <div class="menu-call" ng-click="toggleMenu()">
+    {{text}}
+  </div>
+  <div class="menu-nav" ng-show="menu">
+    <ul>
+          
+        <li>
+          <a href="#/home" ng-click="toggleMenu()">#/home</a>
+        </li>
+        <li>
+          <a href="#/conversation" ng-click="toggleMenu()">#/conversation</a>
+        </li>
+        <li>
+          <a href="#/fullprofile" ng-click="toggleMenu()">#/fullprofile</a>
+        </li>
+        <li>
+          <a href="#/side-menu" ng-click="toggleMenu()">#/side-menu</a>
+        </li>
+        <li>
+          <a href="#/featured-profile" ng-click="toggleMenu()">#/featured-profile</a>
+        </li>
+        <li>
+          <a href="#/help" ng-click="toggleMenu()">#/help</a>
+        </li>
+        <li>
+          <a href="#/terms" ng-click="toggleMenu()">#/terms</a>
+        </li>
+        <li>
+          <a href="#/register-success" ng-click="toggleMenu()">#/register-success</a>
+        </li>
+        <li>
+          <a href="#/couple-videos" ng-click="toggleMenu()">#/couple-videos</a>
+        </li>
+        <li>
+          <a href="#/couple-album" ng-click="toggleMenu()">#/couple-album</a>
+        </li>
+        <li>
+          <a href="#/couple-data" ng-click="toggleMenu()">#/couple-data</a>
+        </li>
+        <li>
+          <a href="#/new-account" ng-click="toggleMenu()">#/new-account</a>
+        </li>
+        <li>
+          <a href="#/register" ng-click="toggleMenu()">#/register</a>
+        </li>
+        <li>
+          <a href="#/get-hot-code" ng-click="toggleMenu()">#/get-hot-code</a>
+        </li>
+        <li>
+          <a href="#/login" ng-click="toggleMenu()">#/login</a>
+        </li>
+        <li>
+          <a href="#/forgot" ng-click="toggleMenu()">#/forgot</a>
+        </li>
+        <li>
+          <a href="#/hot-code" ng-click="toggleMenu()">#/hot-code</a>
+        </li>
+     
+    </ul>
+  </div>
     <ion-nav-view></ion-nav-view>
     <script src="http://code.ionicframework.com/1.0.0/js/ionic.bundle.js"></script>
     <script src="assets/js/hotswingers.js"></script>

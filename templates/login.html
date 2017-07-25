@@ -1,50 +1,27 @@
-<ion-content scroll="false">
+<img src="assets/images/login.jpg" class="guide">
+<ion-content class="padding" scroll="false">
 	<div class="login">
-	<div class="col-sm-12 logo">
-		<div class="logo-large">
-			<img src="assets/images/logo-lg.png">
-		</div>
-	</div>
-	<div class="form-login">
-		<div class="row">
-			<form class="form-horizontal">
-			  <div class="form-group">
-			    <div class="col-sm-12 ">
-						<div class="input-group">
-							<div class="input-group-addon"><span class="icon-envelope"></span></div>
-			      	<input type="email" class="form-control" id="email" placeholder="E-mail">
-						</div>
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <div class="col-sm-12">
-						<div class="input-group">
-						<div class="input-group-addon"><span class="icon-key"></span></div>
-			      <input type="password" class="form-control" id="password" placeholder="Password">
-			    </div>
-					</div>
-			  </div>
-			  <div class="form-group">
-			    <div class="col-sm-12">
-			      <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-ok icon"></span></button>
-			    </div>
-			  </div>
-				<div class="form-group">
-					<div class="col-sm-12">
-						<p class="forgot">Esqueceu sua senha?</p>
-					</div>
-				</div>
-		</div>
-		</form>
-	</div>
-	<div class="col-sm-12 footer">
-		<div class="row">
-			<div class="col-sm-6">
-				<p class="pull-left color-roxo"><span class="icon-note icon"></span>Cadastre-se</p>
+		<img src="assets/images/logo-lg.png" />
+
+		<div class="login-form">
+
+			<div class="form-field user-email">
+				<input ng-model="login.user" type="text"  placholder="Email" class="formated-field">
 			</div>
-			<div class="col-sm-6">
-				<p class="pull-right color-roxo"><span class="icon-support icon"></span>Ajuda</p>
+			<div class="form-field with-caption user-pass"  >
+				<input ng-model="login.pass" type="password"  placeholder="******" class="formated-field">
 			</div>
+			<button class="submit-primary"><img src="assets/images/correct-symbol.svg"></button>
+			<a href="#/forgot" class="forgot">Esqueceu sua senha?</a>
 		</div>
+
+	</div>
+	<div class="foot-info">
+		<a class="pull-left">
+			<i class="icon-note icons"></i> Cadastre-me
+		</a>
+		<a class="pull-right">
+			<i class="icon-support icons"></i> Ajuda
+		</a>
 	</div>
 </ion-content>

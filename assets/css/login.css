@@ -1,14 +1,113 @@
 .login {
-  margin-top: 40px;
+    padding: 0 25px;
+    text-align: center;
 }
 
-.input-group {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+.login img {
+    width: 100%;
+    margin-top: 25px;
 }
 
-.input-group-addon {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 20px;
+.login-form {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.login-form .form-field, .control.from-field {
+    text-align: center;
+    position: relative;
+}
+
+.login-form input[type="text"], .control input[type="password"],input[type="password"] {
+    display: inline-block;
+    border-bottom: 2px solid #664A73 !important;
+    background: transparent;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: MyRiad;
+    font-weight: normal!important;
+    line-height: 3em;
+    opacity: 1;
+}
+
+input[type="text"], input[type="password"] {
+    border: none;
+    margin: 5px 0;
+    /* background: #230C2B; */
+    border-bottom: 2px solid #FFF !important;
+    width: 100%;
+    /* padding: 3em 3em; */
+}
+
+button.submit-primary {
+    background: #441E59;
+    width: 100%;
+    color: #b7b7b7;
+    border: none;
+    /* height: 3.6em; */
+    position: relative;
+    top: 1em;
+    width: 100% !important;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+a.forgot {
+    color: #7F6D87;
+    top: 30px;
+    position: relative;
+    text-decoration: none;
+}
+.foot-info {
+  /* background: red; */
+  /* top: 92vh; */
+  position: relative;
+  /* top: 100vh; */
+  /* width: 100%; */
+  /* padding: 0 35px; */
+  /* top: 4.2em; */
+  top: 45px;
+  /* left: 0; */
+  /* bottom: 15px; */
+
+a.pull-left {
+    float: left;
+    display: inline-block;
+}
+
+a.pull-right {
+    float: right;
+    display: inline-block;
+}
+
+.foot-info a {
+  color: #fff !important;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: normal !important;
+  opacity: 0.4;
+}
+
+.user-email:before {
+    content: "\e086";
+    position: absolute;
+    font-family: 'simple-line-icons';
+    color: white;
+    font-size: 20px;
+    top: 11px;
+    left: 9px;
+}
+.user-pass:before {
+    content: "\e08c";
+    position: absolute;
+    font-family: 'simple-line-icons';
+    color: white;
+    font-size: 20px;
+    top: 13px;
+    left: 9px;
+}
+input[type="password"] {
+    border-color: #5F436C !important;
 }

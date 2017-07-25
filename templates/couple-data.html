@@ -1,24 +1,23 @@
 <img src="assets/images/login.jpg" class="guide">
 <div class="head">
-	<h3 class="new-acct"><i class="icon-user icons"></i> Dados do casal</h3>
+	<h3 class="new-acct"><i class="icon-user icons"></i> Dados do Casal</h3>
 </div>
 <ion-content class="padding" scroll="true">
 	<div class="couple-data">
-		<p>Escolha a foto mais top que você tem!<br /> Esta será a <span class="gold-couple">principal foto do perfil</span> e aparecerá em nosso <span class="gold-couple">Tyndeer do Swing</span>.</p>
+		<p>Escolha a foto mais top que você tem!<br /> Esta será a <span class="gold-couple">principal foto do perfil</span> e <br />aparecerá em nosso <span class="gold-couple">Tyndeer do Swing</span>.</p>
 		<div class="couple-figure" ng-click="showImage()">
 			<i class="icon-camera"></i>
-			<small>CLIQUE AQUI</small>
 			<img ng-show="imageToggle" class="fade" src="http://rollingout.com/wp-content/uploads/2016/05/Demi-with-Taz.jpg?x77027">
 		</div>
 		<div class="couple-form">
 			<form>
 			<div class="form-field couple-nick">
-				<input type="text" placeholder="apelido do casal.">
-				
+				<input type="text" placeholder="Apelido do Casal">
+
 			</div>
 			<div class="form-field">
-				<p><i class="icon-magic-wand"></i> Frase provocativas</p>
-				<textarea></textarea>
+				<p><i class="icon-magic-wand"></i> Frase provocativa</p>
+				<textarea>Digite aqui uma frase provocativa que outros casais irão ver em seu perfil.</textarea>
 			</div>
 		<div class="selector-view">
 			<p>Buscamos por</p>
@@ -40,23 +39,16 @@
 		</div>
 		<div class="selector-view ">
 			<p>Gostamos de</p>
-			<select>
+			<select class="right">
 				<option>Escolha sua opção</option>
 			</select>
 		</div>
 		<div class="form-field">
-				<p><i class="icon-emotsmile"></i> Breve descrição sobre o casal</p>
-				<textarea>Digite aqui uma descrição sincera sobre a vida do casal no meio do swing e o que procura neste aplicativo. Capricha hein!</textarea>
+				<p><i class="icon-emotsmile"></i>Breve descriação do perfil</p>
+				<textarea rows="4" cols="50">Digite aqui uma descrição sincera sobre a vida do casal no meio do swing e o que procura neste aplicativo. Capricha hein!</textarea>
 			</div>
 			</form>
 		</div>
-			<div class="checkbox-field">
-			    <label>
-			        <input type="checkbox" /> 
-			        <span>Confirmo que as informações são verdadeiras</span>
-			    </label>
-			</div>	
-
-			<button class="submit-primary hn hnt"><img src="assets/images/correct-symbol.svg">	</button>	
+			<button class="submit-primary hn hnt"><img src="assets/images/correct-symbol.svg">	</button>
 	</div>
 </ion-content>

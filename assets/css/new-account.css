@@ -1,30 +1,26 @@
 .head{
-        background: #291037;
-    height: 4em;
     width: 100%;
     display: block;
     z-index: 9999;
     position: absolute;
-    color: #fff;
+    font-size: 18px;
+    padding: 14px 0;
+    background-color: #281136;
+    max-height: 55px;
 }
 h3.new-acct {
     text-align: center;
     color: #fff;
-    line-height: 2.2em;
+    margin-top: 2px
 }
 .new-account {
-    padding-top: 5em;
-    padding: 5em 2em 5em 2em;
-}
-.new-account {
-    padding-top: 5em;
-    padding: 5em 2em 5em 2em;
+    margin-top: 70px;
+    padding: 0 20px;
 }
 
 h2.profile-top {
     text-transform: uppercase;
     font-weight: bold;
-    co: re;
     color: rgb(251, 219, 1);
     font-size: 18pt;
 }
@@ -40,13 +36,15 @@ h2.profile-top {
 }
 .account-type {
     /* background: red; */
-    position: relative;
-    display: flex;
-    width: 78%;
-    top: -2.4em;
-    margin: 1em 0;
-    overflow: hidden;
-    float: right;
+    /* position: relative; */
+    display: inline-grid;
+    /* width: 100%; */
+    /* top: -50px; */
+    margin: 25px 0 15px 0;
+    /* overflow: hidden; */
+    float: left;
+    left: -11px;
+    font-size: 15px;
 }
 
 .account-type .radio-field {
@@ -55,10 +53,9 @@ h2.profile-top {
 
 .new-account .photo {
     background: rgb(40, 16, 54);
-    width: 26%;
-    width: 35;
+    width: 90px;
     display: inline-flex;
-    height: 5.5em;
+    height: 90px;
     border-radius: 50%;
     border: 3px solid rgb(184, 180, 183);
     text-align: center;
@@ -69,18 +66,19 @@ h2.profile-top {
 }
 
 .new-account .nickname {
-    width: 69%;
-    display: inline-block;
-    position: relative;
-    top: .3em;
-    margin-left: .7em;
+  width: 60%;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  /* margin-left: .7em; */
+  float: right;
 }
 
 .new-account .user-state {
     /* background: blue; */
     width: 18em;
     float: right;
-    top: 1em;
+    /*top: 1em;*/
     position: relative;
 }
 
@@ -94,7 +92,7 @@ h2.profile-top {
     position: relative;
     font-size: 2em;
     position: relative;
-    top: .7em;
+    top: .9em;
     margin: 0 auto;
 }
 
@@ -125,20 +123,22 @@ h2.profile-top {
 .selector-view p {
     display: inline-block;
     color: #fff;
-    font-size: 12pt;
-    font-weight: bold;
+    font-size: 16px;
 }
 
 .selector-view select {
-    width: 50%;
-    position: absolute;
-    right: 0;
+    /* width: 55%; */
+    /* position: relative; */
+    /* right: 0; */
     background: transparent;
     color: rgb(138, 122, 148);
-    border-color: rgb(90, 63, 103);
-    border-radius: 2px;
-    padding: .2em 0;
     border: none;
+    /* border-radius: 2px; */
+    padding: .2em 0;
+    /* border-radius: 7px; */
+    /* margin-top: -3px; */
+    /* text-align: right; */
+    float: right;
 }
 .selector-view.lg select {
     width: 58%;
@@ -182,6 +182,7 @@ ion-item.item {
     display: inline-block;
     width: 46%;
     text-align: left;
+    margin: 0 0 0 5px;
     /* float: left; */
 }
 .selector-nav ion-item.item {
@@ -220,13 +221,13 @@ ion-item.item {
 }
 
 .selector-nav ion-label {
-    position: relative;
-    top: 1.5em;
-    margin: 0;
-    font-weight: bold;
-    color: #4B2D59;
-    left: -.8em;
-    font-family: inherit;
+  position: relative;
+  top: 17px;
+  margin: 0;
+  color: #fff;
+  left: -.5em;
+  font-family: inherit;
+  font-size: 19px;
 }
 .toggle .track {
     -webkit-transition-timing-function: ease-in-out;
@@ -238,7 +239,7 @@ ion-item.item {
     display: inline-block;
     box-sizing: border-box;
     width: 51px;
-    height: 31px;
+    height: 30px;
     border: 2px solid rgb(153, 138, 159);
     border-radius: 20px;
     background-color: #1E0925;
@@ -263,7 +264,7 @@ ion-item.item {
 }
 .item-toggle .toggle {
     position: absolute;
-    top: 10px;
+    top: 5px !important;
     right: 16px;
     z-index: 3;
 }
@@ -297,7 +298,7 @@ ion-item.item {
     font-family: 'simple-line-icons';
     color: white;
     font-size: 18px;
-    top: 6px;
+    top: 12px!important;
     left: 9px;
 }
 
@@ -305,6 +306,10 @@ ion-item.item {
     /* padding-left: 2em; */
     line-height: -3em;
     /* padding-bottom: 6px; */
+    font-weight: normal;
+    /*opacity: 0.6;*/
+    margin-left: 0px;
+    font-size: 16px;
 }
 
 .input-row .st1:before {
@@ -331,7 +336,7 @@ ion-item.item {
 }
 
 .st3:before {
-    content: "\e01a";
+    content: "\e020";
     position: absolute;
     font-family: 'simple-line-icons';
     color: white;
@@ -340,14 +345,15 @@ ion-item.item {
     left: 9px;
 }
 .new-account .checkbox-field {
-    top: 3em;
+    top: 3.5em;
     position: relative;
     text-align: center;
+    left: -11px;
 }
 .new-account button.submit-primary.hn {
     /* background: red; */
-    border-radius: 2px;
-    margin-top: 2em;
+    /*border-radius: 2px;*/
+    margin-top: 20px;
 }
 .photo.w-image {
     overflow: hidden;
@@ -359,5 +365,11 @@ ion-item.item {
     width: 100%;
 }
 .w-image .nickname {
-    top: -1em;
+    /*top: -30px;*/
+}
+
+.subir {
+    /*margin-top: -50px;*/
+    position: relative;
+    top: -30px;
 }

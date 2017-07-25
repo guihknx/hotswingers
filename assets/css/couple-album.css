@@ -1,19 +1,21 @@
 .album p {
-    font-weight: 600;
+    font-weight: normal;
     color: #fff;
     text-align: center;
+    font-size: 17px;
 }
 .album button.hn {
-    color: rgba(255, 255, 255, 0.48);
-    font-size: 20px;
-    padding: 1em 0;
-    height: 3em;
-    line-height: -2em;
-    padding-bottom: 2.2em;
-    background: #291037;
-    width: 90% !important;
-    /* margin: 0; */
-    margin-top: -1em;
+  color: rgba(255, 255, 255, 0.48);
+      /* font-size: 20px; */
+      /* padding: 1em 0; */
+      /* height: 3em; */
+      line-height: -2em;
+      padding: 14px 0;
+      background: #291037;
+      width: 90% !important;
+      /* margin: 0; */
+      /* margin-top: -1em; */
+      border-radius: 7px;
 }
 ion-content.album {
     background: linear-gradient(#441F55, #1B0720);
@@ -47,7 +49,7 @@ ion-content.album {
     color: #8E234D;
 }
 .album .album {
-    margin: 1em 1em 0em 1em;
+  /*margin: 0 25px;*/
 }
 
 button.submit-primary.hnc {
@@ -60,4 +62,12 @@ button.submit-primary.hnc {
 h3.new-acct.n {
     top: 5px;
     position: relative;
+}
+
+.margin-couple {
+  padding: 0 25px;
+  margin-top: 15px;
+}
+.icon2 {
+  top: 2px!important;
 }

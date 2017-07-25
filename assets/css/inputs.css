@@ -9,15 +9,17 @@ input[type="checkbox"] {
 
 .radio-field input[type="radio"], .radio-field-inline input[type="radio"], .checkbox-field input[type="checkbox"], .checkbox-field-inline input[type="checkbox"] {
     -webkit-appearance: none;
-    margin-left: -25px;
+    margin-left: -15px;
 }
 
 .radio-field input[type="radio"]:after, .radio-field-inline input[type="radio"]:after, .checkbox-field input[type="checkbox"]:after, .checkbox-field-inline input[type="checkbox"]:after {
-    border-color: rgb(90, 62, 101) !important;
+  border-color: rgba(253, 215, 9, 0.64) !important;
+  border-radius: 7px;
 }
 
 .radio-field input[type="radio"]:disabled:after, .radio-field-inline input[type="radio"]:disabled:after, .checkbox-field input[type="checkbox"]:disabled:after, .checkbox-field-inline input[type="checkbox"]:disabled:after {
     border-color: rgba(0, 0, 0, 0.26);
+    border-radius: 5px!important;
 }
 
 .radio-field input[type="radio"]:focus, .radio-field-inline input[type="radio"]:focus, .checkbox-field input[type="checkbox"]:focus, .checkbox-field-inline input[type="checkbox"]:focus {
