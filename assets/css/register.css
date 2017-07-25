@@ -12,11 +12,11 @@
   /* top: 5px; */
   /* position: relative; */
 }
-}
+
 .regular-form {
     /* background: red; */
     /* width: 95%; */
-    padding: 0 10%;
+    padding: 0 0;
     top: 2em;
     position: relative;
 }
@@ -123,7 +123,6 @@
     /* top: 1.3em; */
     /* margin: 0em 0em 0em 0em; */
     /* overflow: hidden; */
-    dus: d;
     /* display: inline-flex; */
 }
 .radio-field label span {

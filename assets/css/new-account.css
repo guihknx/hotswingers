@@ -85,7 +85,6 @@ h2.profile-top {
 .new-account .nickname input {
     /* background: transparent; */
     /* top: -6px; */
-    position: re;
 }
 .new-account .photo i {
     color: #B8B4B7;
@@ -106,7 +105,6 @@ h2.profile-top {
 
 .input-row div {
     display: inline;
-    float: le;
 }
 
 .selector-view {
@@ -178,7 +176,6 @@ ion-item.item {
     background: transparent !important;
     border: none;
     overflow: visible;
-    dis: in;
     display: inline-block;
     width: 46%;
     text-align: left;

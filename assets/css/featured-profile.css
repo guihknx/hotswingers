@@ -7,7 +7,6 @@
     display: -webkit-inline-box;
     margin: 0 auto;
     width: 100%;
-    tec: c;
     text-align: center;
     width: 8em;
     /* background: red; */
@@ -26,7 +25,6 @@ a.right-menu {
     float: right;
     font-size: 2em;
     top: 0;
-    pso: re;
     margin: .5em;
     color: white;
 }
@@ -117,7 +115,6 @@ a.right-menu {
     /* background: red; */
     width: 100%;
     z-index: 9999999999;
-    hw: 1em;
     height: 2em;
     text-align: center;
 }
@@ -129,7 +126,6 @@ a.right-menu {
     margin: 1em;
     content: "";
     z-index: 999999;
-    position: f;
     display: inline-block;
     top: 1em;
     position: relative;

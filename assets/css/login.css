@@ -61,17 +61,18 @@ a.forgot {
     text-decoration: none;
 }
 .foot-info {
-  /* background: red; */
-  /* top: 92vh; */
-  position: relative;
-  /* top: 100vh; */
-  /* width: 100%; */
-  /* padding: 0 35px; */
-  /* top: 4.2em; */
-  top: 45px;
-  /* left: 0; */
-  /* bottom: 15px; */
-
+    /* background: red; */
+    /* top: 92vh; */
+    position: relative;
+    /* top: 100vh; */
+    /* width: 100%; */
+    /* padding: 0 35px; */
+    /* top: 4.2em; */
+    top: 45px;
+    /* left: 0; */
+    /* bottom: 15px; */
+    margin-top: 15px;
+}
 a.pull-left {
     float: left;
     display: inline-block;
@@ -82,7 +83,7 @@ a.pull-right {
     display: inline-block;
 }
 
-.foot-info a {
+.foot-info a{
   color: #fff !important;
   font-size: 1.3em;
   text-decoration: none;
