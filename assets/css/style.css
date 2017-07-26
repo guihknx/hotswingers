@@ -1,3 +1,5 @@
+@import url(bootstrap.min.css);
+@import url(config.css);
 @import url(simple-line-icons.css);
 @import url(progress.css);
 @import url(splash.css);
@@ -17,7 +19,7 @@
 @import url(featured-profile.css);
 @import url(side-menu.css);
 @import url(fullprofile.css);
-@import url(conversations.css);
+@import url(conversation.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url(http://fonts.googleapis.com/css?family=Cabin:700);
 
@@ -1231,4 +1233,8 @@ hr {
 
 .icons-opacity {
     opacity: 0.5;
+}
+
+img.location {
+    margin: 10px 0 20px 0 !important;
 }

@@ -98,6 +98,7 @@
     position: relative;
     top: -9px;
     left: 8px;
+    font-weight: normal;
 }
 
 .register button.submit-primary.hn {
@@ -131,6 +132,7 @@
     top: -15px;
     left: 25px;
     font-size: 1.2em;
+    font-weight: normal;
 }
 span.caption {
     color: white;

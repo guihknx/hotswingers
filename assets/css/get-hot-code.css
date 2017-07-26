@@ -12,8 +12,7 @@ span.hot {
 }
 
 .get-hot-code .control a {
-    color: #BF5D98;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0 0;
 }
 
