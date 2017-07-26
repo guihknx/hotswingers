@@ -45,6 +45,10 @@ img.chat {
   margin-right: 5px;
 }
 
+.chat_list .status-offline {
+  background: #459441;
+}
+
 .chat_list .imagem {
   width: 22%;
 }
