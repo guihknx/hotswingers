@@ -6,3 +6,8 @@ ConfigController.$inject = [
 	'$scope',
 	'$timeout'
 ];
+
+
+function ConfigController($scope, $timeout){
+
+}

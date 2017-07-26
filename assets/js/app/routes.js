@@ -87,8 +87,13 @@ angular
       url: '/hot-code',
       templateUrl: 'templates/hot-code.html',
       controller: 'HotcodeController',
-    });
-    state('config', {
+    })
+    .state('location', {
+      url: '/location',
+      templateUrl: 'templates/location.html',
+      controller: 'LocationController',
+    })
+    .state('config', {
       url: '/config',
       templateUrl: 'templates/config.html',
       controller: 'ConfigController',
